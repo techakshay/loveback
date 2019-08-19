@@ -1,0 +1,42 @@
+div{margin: 0px; padding: 0px; float: left;}
+.main{width: 96%; margin:auto; padding:0px; float: none;}
+img{max-width: 100%;}
+
+/* For desktop: */
+.one-half {width:4.165%;}
+.box-1 {width: 8.33%;}
+.box-2 {width: 16.66%;}
+.box-3 {width: 25%;}
+.box-4 {width: 33.33%;}
+.box-5 {width: 41.66%;}
+.box-6 {width: 50%;}
+.box-7 {width: 58.33%;}
+.box-8 {width: 66.66%;}
+.box-9 {width: 75%;}
+.box-10 {width: 83.33%;}
+.box-11 {width: 91.66%;}
+.box-12 {width: 100%;}
+
+.form-text {width: 100%; padding: 10px; margin: 0 0 10px 0; height: 35px; border-radius:3px; border:1px solid #ccc; outline: none;}
+.form-text::-webkit-input-placeholder{color: #818181; font-size: 14px;}
+textarea{width: 100%; min-height:100px; border-radius:3px; margin: 0 0 10px 0; border:1px solid #ccc; outline: none; font-family: "arial";}
+textarea::-webkit-input-placeholder{color: #818181; font-size: 14px; font-family: "arial";}
+*{
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a{text-decoration: none; color: #3d3d3d;}
+.list-group{margin: 0; padding: 0; width: 100%;}
+.list-item{margin: 0; display: block; position: relative; background: #fff; padding:10px 0 10px 10px; border:1px solid #ccc; width: 100%;}
+.list-item::first-letter{text-transform: capitalize;}
+.navi,.list{width: 100%;}
+li{list-style-type: none;}
+
+
+/* For mobile: */
+@media (max-width:768px){
+   .one-half,.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9,.box-10,.box-11,.box-12
+   {width:100%;}
+}
